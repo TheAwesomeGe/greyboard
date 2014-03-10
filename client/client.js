@@ -44,6 +44,10 @@ Meteor.startup(function() {
 	$('#reset').click(function() {
 		Meteor.call('reset', window.location.pathname);
 	});
+
+	document.ontouchmove = function(event){
+		event.preventDefault();
+	}
 });
 
 
