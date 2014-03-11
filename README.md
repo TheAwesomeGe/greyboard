@@ -1,4 +1,4 @@
-blackboard
+Greyboard
 ==========
 
-An attempt at a distributed blackboard by playing with Meteor
+An attempt at a distributed "black"board by playing with Meteor

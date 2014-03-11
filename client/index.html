@@ -1,0 +1,19 @@
+<head>
+	<title>Greyboard</title>
+</head>
+
+<body>
+	{{> board}}
+	{{> toolbar}}
+</body>
+
+<template name="board">
+	<canvas id="board"></canvas>
+</template>
+
+<template name="toolbar">
+	<div id="toolbar">
+		<input id="reset" type="button" value="Reset" />
+		<input id="colorCode" type="text" maxlength="7" size="7" value="#FFFFFF" />
+	</div>
+</template>
